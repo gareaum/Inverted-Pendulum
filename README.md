@@ -8,6 +8,11 @@ The resulting design enables reliable 360° rotation, meets all sponsor requirem
 
 <img src="Images/Inverted_Pendulum.png" alt="Finished Pendulum" width="500">
 
+### System Block Diagram
+The diagram below illustrates the three main components of the Furuta Pendulum System and how they interact.
+
+<img src="Images/Block_Diagram.png" alt="System Block Diagram" width="500">
+
 ### Problem Analysis
 Key challenges included:
 - Enabling **360° continuous rotation** without tangling wires, addressed with a **slip ring** for the magnetic encoder.  
@@ -24,7 +29,6 @@ The design incorporates:
 - Bearings and low-friction joints to minimize resistance and support smooth rotation of Link 2.  
 - Integration with a **control algorithm** provided by the lab, enabling predictive motion and upright balance of the pendulum.  
 
-
 <img src="Images/Section_View.png" alt="Section View" width="500">
 
 ### Design Testing
@@ -40,6 +44,14 @@ The system underwent four key testing phases:
 
 All test results and detailed procedures are documented in **Appendix D** of the project report.
 
-4. **Control Test:** Verified the supplied control algorithm’s ability to balance Link 2 upright. Initial testing required **adding 63.5 g** to the tip of Link 2 to achieve stable balance, after which the system performed reliably.  
+### Conclusions and Recommendations
+The team successfully designed a **compact, low-friction Furuta pendulum** to test control algorithms for Dr. Satici’s Robot Control Laboratory. The project focused primarily on the **Mechanical System**, with the Control Algorithm and Electrical System integrating to ensure proper functionality.  
 
-All test results and detailed procedures are documented in **Appendix D** of the project report.
+The team overcame challenges in machining inaccuracies, part procurement, and assembly, delivering a functional system under a total cost of approximately **$813.83** (excluding shipping). Lessons learned included the importance of early design verification, careful part selection, and proactive troubleshooting.  
+
+For future improvements, all four wheels on the rotating platform could be fully engaged for better support, and a higher-quality slip ring could further reduce rotational issues.  
+
+Overall, this project provided invaluable hands-on experience in **mechanical design, system integration, and project management**, culminating in a fully functional Furuta pendulum successfully presented at the Senior Design Showcase.  
+
+For a more **in-depth process and detailed analysis**, please refer to the full project report included in this repository.
+
