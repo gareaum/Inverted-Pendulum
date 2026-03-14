@@ -2,16 +2,11 @@
 
 This project was completed for Boise State University’s Robot Control Laboratory and focuses on designing a **Furuta inverted pendulum** capable of rotating a full 360° indefinitely without tangling wires or relying on additional gearboxes. The design emphasizes **low friction, tight tolerances, and structural rigidity** to ensure smooth motion under motor torque, while keeping the system compact (≤31×31×56 cm) and lightweight (<2 kg, excluding frame) with a total cost under $1,000.
 
-The pendulum system is composed of three main components: **Mechanical System, Electrical System, and Control Algorithm**. A decision matrix guided the design process by integrating the strengths of existing market pendulums with custom solutions to meet the sponsor’s specifications. Key features include a **removable top and outer frame** for easy assembly, maintenance, and fabrication.  
+The system is composed of three main components: **Mechanical System, Electrical System, and Control Algorithm**. A decision matrix guided the design process by integrating the strengths of existing market pendulums with custom solutions to meet the sponsor’s specifications. Key features include a **removable top and outer frame** for easy assembly, maintenance, and fabrication.  
 
 The resulting design enables reliable 360° rotation, meets all sponsor requirements, and provides a robust platform for control algorithm testing and system analysis.
 
 ![Finished Pendulum](Images/Inverted_Pendulum.png)
-
-The Furuta Pendulum has three main parts of the project. There is the control algorithm (provided by
-the sponsor), the electrical system, and the mechanical system. The following Figure shows a system block diagram expanding on these three fundamental components of the Furuta Pendulum System. The team has been tasked by the sponsor to focus primarily on the mechanical system for the design.
-
-![Finished Pendulum](Images/Block_Diagram.png)
 
 ### Problem Analysis
 Key challenges included:
@@ -27,9 +22,11 @@ The design incorporates:
 - A **RE 40 motor** (150 W, 187 mN-m nominal torque) capable of spinning Link 1 continuously up to 360° at a limited 250 RPM.  
 - A **removable top and outer frame** for easy assembly, maintenance, and modifications.  
 - Bearings and low-friction joints to minimize resistance and support smooth rotation of Link 2.  
-- Integration with a control algorithm provided by the lab, enabling predictive motion and upright balance of the pendulum.  
+- Integration with a **control algorithm** provided by the lab, enabling predictive motion and upright balance of the pendulum.  
 
 A decision matrix was used to select features from existing pendulum designs and adapt them to meet sponsor requirements, balancing torque, friction, and accessibility.
+
+![System Block Diagram](Images/Block_Diagram.png)
 
 ### Design Testing
 The system underwent four key testing phases:
@@ -39,6 +36,10 @@ The system underwent four key testing phases:
 2. **Friction Test:** Evaluated bearings and rotating joints for smooth motion. Only three of four platform bearings were used to distribute weight effectively, which was sufficient for operation.  
 
 3. **Integration Test:** Ensured all subassemblies connected correctly and operated smoothly without interference. The pendulum passed all integration checks.  
+
+4. **Control Test:** Verified the supplied control algorithm’s ability to balance Link 2 upright. Initial testing required **adding 63.5 g** to the tip of Link 2 to achieve stable balance, after which the system performed reliably.  
+
+All test results and detailed procedures are documented in **Appendix D** of the project report.
 
 4. **Control Test:** Verified the supplied control algorithm’s ability to balance Link 2 upright. Initial testing required **adding 63.5 g** to the tip of Link 2 to achieve stable balance, after which the system performed reliably.  
 
