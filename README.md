@@ -24,9 +24,8 @@ The design incorporates:
 - Bearings and low-friction joints to minimize resistance and support smooth rotation of Link 2.  
 - Integration with a **control algorithm** provided by the lab, enabling predictive motion and upright balance of the pendulum.  
 
-A decision matrix was used to select features from existing pendulum designs and adapt them to meet sponsor requirements, balancing torque, friction, and accessibility.
 
-<img src="Images/Block_Diagram.png" alt="System Block Diagram" width="1000">
+<img src="Images/Section_View.png" alt="Section View" width="500">
 
 ### Design Testing
 The system underwent four key testing phases:
