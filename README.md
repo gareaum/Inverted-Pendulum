@@ -30,7 +30,7 @@ The design incorporates:
 - Integration with a **control algorithm** provided by the lab, enabling predictive motion and upright balance of the pendulum.  
 
 ### CAD Section View
-The CAD section view below highlights key mechanical components of the pendulum, including linkages, motor placement, and bearings. Callouts illustrate critical tolerances and assembly features that enable smooth 360° rotation and easy maintenance.
+The CAD section view below highlights key mechanical components of the pendulum, including linkages, motor placement, and bearings. This view demonstrates how the links, motor, and bearings interact to enable smooth 360° rotation and maintenance access.
 <img src="Images/Section_View.png" alt="Section View" width="500">
 
 ### Design Testing
