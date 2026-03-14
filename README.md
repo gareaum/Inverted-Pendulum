@@ -6,7 +6,7 @@ The system is composed of three main components: **Mechanical System, Electrical
 
 The resulting design enables reliable 360° rotation, meets all sponsor requirements, and provides a robust platform for control algorithm testing and system analysis.
 
-![Finished Pendulum](Images/Inverted_Pendulum.png)
+<img src="Images/Inverted_Pendulum.png" alt="Finished Pendulum" width="500">
 
 ### Problem Analysis
 Key challenges included:
