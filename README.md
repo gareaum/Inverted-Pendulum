@@ -29,6 +29,8 @@ The design incorporates:
 - Bearings and low-friction joints to minimize resistance and support smooth rotation of Link 2.  
 - Integration with a **control algorithm** provided by the lab, enabling predictive motion and upright balance of the pendulum.  
 
+### CAD Section View
+The CAD section view below highlights key mechanical components of the pendulum, including linkages, motor placement, and bearings. Callouts illustrate critical tolerances and assembly features that enable smooth 360° rotation and easy maintenance.
 <img src="Images/Section_View.png" alt="Section View" width="500">
 
 ### Design Testing
@@ -41,8 +43,6 @@ The system underwent four key testing phases:
 3. **Integration Test:** Ensured all subassemblies connected correctly and operated smoothly without interference. The pendulum passed all integration checks.  
 
 4. **Control Test:** Verified the supplied control algorithm’s ability to balance Link 2 upright. Initial testing required **adding 63.5 g** to the tip of Link 2 to achieve stable balance, after which the system performed reliably.  
-
-All test results and detailed procedures are documented in **Appendix D** of the project report.
 
 ### Conclusions and Recommendations
 The team successfully designed a **compact, low-friction Furuta pendulum** to test control algorithms for Dr. Satici’s Robot Control Laboratory. The project focused primarily on the **Mechanical System**, with the Control Algorithm and Electrical System integrating to ensure proper functionality.  
