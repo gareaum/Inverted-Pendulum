@@ -27,7 +27,7 @@ The design incorporates:
 A decision matrix was used to select features from existing pendulum designs and adapt them to meet sponsor requirements, balancing torque, friction, and accessibility.
 
 ![System Block Diagram](Images/Block_Diagram.png)
-
+<img src="Images/Block_Diagram.png" alt="System Block Diagram" width="500">
 ### Design Testing
 The system underwent four key testing phases:
 
